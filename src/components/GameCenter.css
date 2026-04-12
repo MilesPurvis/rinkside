@@ -1,0 +1,30 @@
+.gc-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  user-select: none;
+}
+.gc-header:hover {
+  color: #888;
+}
+.gc-toggle {
+  font-size: 18px;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+.gc-toggle.open {
+  transform: rotate(90deg);
+}
+.gamecenter {
+  border: 1px solid #222;
+  border-radius: 10px;
+  overflow: auto;
+}
+.gamecenter iframe {
+  width: 100%;
+  min-height: 500px;
+  border: none;
+  background: #fff;
+  display: block;
+}
